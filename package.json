@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.1",
-    "typescript": "^2.1.0-dev.20160806"
+    "typescript": "^2.1.0-dev.20160806",
+    "tslint": "^3.14.0"
   },
   "scripts": {
     "watch": "tsc --project src --outDir build -w",
     "build": "tsc --project src --outDir build",
+    "lint": "tslint --project src || exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
