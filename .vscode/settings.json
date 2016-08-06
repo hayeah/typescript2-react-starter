@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.detectIndentation": true,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.renderIndentGuides": true,
+	"editor.formatOnType": false,
+
+  "files.exclude": {
+		"node_modules": true
+	}
+}
