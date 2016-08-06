@@ -4,9 +4,9 @@
     "target": "es6",
     "jsx": "react",
     "experimentalDecorators": true,
-    "allowJs": true,
+    "allowJs": false,
 
-    // "allowSyntheticDefaultImports": false,
+    "allowSyntheticDefaultImports": true,
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -20,7 +20,12 @@
     // "noUnusedParameters": true
   },
 
+  "include": [
+    "src/**/*"
+  ],
+
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "build"
   ]
 }
