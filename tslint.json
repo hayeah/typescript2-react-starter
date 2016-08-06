@@ -25,9 +25,13 @@
             "check-open-brace",
             "check-whitespace"
         ],
+
+        "interface-name": [true, "always-prefix"],
+
         "quotemark": [
             true,
-            "double"
+            "double",
+            "avoid-escape"
         ],
         "curly": true,
         "semicolon": [
