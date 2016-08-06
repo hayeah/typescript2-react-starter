@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
