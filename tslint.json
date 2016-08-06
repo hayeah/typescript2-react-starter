@@ -15,6 +15,11 @@
         "no-trailing-whitespace": true,
         "no-unsafe-finally": true,
         "no-var-keyword": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": true,
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+        "no-default-export": true,
+
         "one-line": [
             true,
             "check-open-brace",
@@ -24,6 +29,7 @@
             true,
             "double"
         ],
+        "curly": true,
         "semicolon": [
             true,
             "always"
