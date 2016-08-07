@@ -2,6 +2,6 @@ import * as React from "react";
 
 import { HelloList } from "./HelloList";
 
-function App() {
+export function App() {
 	return <HelloList length={10}/>;
 }
