@@ -9,7 +9,7 @@
     // "moduleResolution": "node",
 
     "allowSyntheticDefaultImports": true,
-    "noEmitOnError": true,
+    // "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "strictNullChecks": true
