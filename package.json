@@ -20,7 +20,8 @@
   "scripts": {
     "build": "tsc --outDir build",
     "watch": "tsc --outDir build -w",
-    "bundle": "quickpack build src/index",
+    "bundle": "quickpack build -o bundle",
+    "bundle-watch": "quickpack build -o bundle --watch",
     "lint": "tslint --project src || exit 0",
     "test": "node -r ./source-map-support build/**_test.js"
   },

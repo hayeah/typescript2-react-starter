@@ -1,7 +1,7 @@
 import * as React from "react";
 
-export function App() {
-	return (
-		<div>Hello World</div>
-	);
+import { HelloList } from "./HelloList";
+
+function App() {
+	return <HelloList length={10}/>;
 }
