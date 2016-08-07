@@ -5,11 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "rollup": "^0.34.5"
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "enzyme": "^2.4.1",
     "react-addons-test-utils": "^15.3.0",
     "source-map-support": "^0.4.2",
@@ -26,6 +24,6 @@
     "test": "node -r ./source-map-support build/**_test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Howard Yeh",
+  "license": "MIT"
 }
