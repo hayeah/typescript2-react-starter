@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "typescript": "^2.0.2"
   },
   "devDependencies": {
     "source-map-support": "^0.4.2",
